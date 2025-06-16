@@ -4,16 +4,16 @@ import time
 import os
 
 # Configurações do Twitch
-TWITCH_CLIENT_ID = os.environ.get('TWITCH_CLIENT_ID', '4ks9f0is84e2peffewa50hdzjrerkh')
-TWITCH_CLIENT_SECRET = os.environ.get('TWITCH_CLIENT_SECRET', 'metbwpvqzj687bi3r64uar3r65kby0')
+TWITCH_CLIENT_ID = os.environ.get('TWITCH_CLIENT_ID')
+TWITCH_CLIENT_SECRET = os.environ.get('TWITCH_CLIENT_SECRET')
 STREAMER_NAME = os.environ.get('STREAMER_NAME', 'oMeiaUm')
 JOGO_DESEJADO = os.environ.get('JOGO_DESEJADO', 'Minecraft')
 
 # Configurações do Twitter
-API_KEY = os.environ.get('TWITTER_API_KEY', 'rKkhI8DTfyuY5PaCrC0Ir647h')
-API_SECRET = os.environ.get('TWITTER_API_SECRET', 'Eo9YuLyOMstAwWvgZ6lHNEoMOncxsguAk8tzJ1fkOsu4xo7jBQ')
-ACCESS_TOKEN = os.environ.get('TWITTER_ACCESS_TOKEN', '1712184630604963840-mg4UNaUs6ivqaxdS4KV1nmdM5DGKz4')
-ACCESS_TOKEN_SECRET = os.environ.get('TWITTER_ACCESS_TOKEN_SECRET', '4q8WeFtOWb4YxjUArFlTLrOnga0Vg0XPFg5uR9CHIAXbp')
+API_KEY = os.environ.get('TWITTER_API_KEY')
+API_SECRET = os.environ.get('TWITTER_API_SECRET')
+ACCESS_TOKEN = os.environ.get('TWITTER_ACCESS_TOKEN')
+ACCESS_TOKEN_SECRET = os.environ.get('TWITTER_ACCESS_TOKEN_SECRET')
 
 # Tempo entre verificações (em segundos)
 CHECK_INTERVAL = int(os.environ.get('CHECK_INTERVAL', 60))
